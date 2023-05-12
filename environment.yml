@@ -3,12 +3,3 @@ channels:
   - conda-forge
 dependencies:
   - python
-  - numpy
-  - pip
-  - rcParams
-  - cycler
-  - pip:
-    - nbgitpuller
-    - sphinx-gallery
-    - pandas
-    - matplotlib
