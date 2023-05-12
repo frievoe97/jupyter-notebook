@@ -1,5 +1,14 @@
-name: healpy-environment
+name: example-environment
 channels:
   - conda-forge
 dependencies:
-  - healpy>=1.12.9
+  - python
+  - numpy
+  - pip
+  - rcParams
+  - cycler
+  - pip:
+    - nbgitpuller
+    - sphinx-gallery
+    - pandas
+    - matplotlib
