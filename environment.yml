@@ -1,0 +1,5 @@
+name: healpy-environment
+channels:
+  - conda-forge
+dependencies:
+  - healpy>=1.12.9
